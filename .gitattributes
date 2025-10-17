@@ -1,0 +1,25 @@
+# Устанавливаем LF для всех текстовых файлов
+* text=auto eol=lf
+
+# JavaScript файлы
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Конфигурационные файлы
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+
+# Исключаем бинарные файлы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
