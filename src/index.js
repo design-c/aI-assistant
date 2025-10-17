@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.get('/status', (req, res) => {
+app.get('/', (req, res) => {
     res.json({
         name: 'AI Assistant',
         isActive: true,
