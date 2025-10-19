@@ -8,7 +8,7 @@
         "dev": "nodemon src/index.js",
         "lint": "eslint src/**/*.js",
         "lint:fix": "eslint src/**/*.js --fix",
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "echo \"While we are developing, we don't have tests yet\" && exit 0",
         "prepare": "husky install"
     },
     "keywords": [
