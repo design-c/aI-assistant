@@ -4,11 +4,13 @@
     "description": "AI Assistant project with Google JavaScript Style Guide",
     "main": "src/index.js",
     "scripts": {
-        "start": "node src/index.js",
-        "dev": "nodemon src/index.js",
+        "start": "node src/index.mjs",
+        "dev": "nodemon src/index.mjs",
         "lint": "eslint src/**/*.js",
         "lint:fix": "eslint src/**/*.js --fix",
-        "test": "echo \"While we are developing, we don't have tests yet\" && exit 0",
+        "test": "node --test",
+        "test:dev": "node --test \"tests/dev/*.test.*\"",
+        "test:qa": "node --test \"tests/qa/*.test.*\"",
         "prepare": "husky install"
     },
     "keywords": [
@@ -27,7 +29,9 @@
         "nodemon": "^3.0.2"
     },
     "dependencies": {
-        "express": "^5.1.0"
+        "@modelcontextprotocol/sdk": "^1.23.0",
+        "express": "^5.1.0",
+        "zod": "^4.1.13"
     },
     "lint-staged": {
         "src/**/*.js": [
