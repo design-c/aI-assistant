@@ -195,3 +195,8 @@
 
     * использовать короткие чек-листы;
     * автоматизация процесса.
+
+
+### Дополнительные Данные 
+- Релиз 1.0.0 в Github https://github.com/design-c/aI-assistant/releases/tag/v1.0.0
+- Доска trello https://trello.com/b/a3UUltui/ai-%D0%B0%D1%81%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82
